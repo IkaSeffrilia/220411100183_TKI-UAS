@@ -1,0 +1,32 @@
+============================================================
+  LINK DATASET - SEARCH ENGINE REGULASI INDONESIA
+  Tugas UAS Temu Kembali Informasi
+============================================================
+
+Link Dataset Kaggle:
+https://www.kaggle.com/datasets/hermansugiharto/indonesian-regulations-dataset
+
+Nama Dataset  : Indonesian Regulations Dataset
+Pemilik       : hermansugiharto (Kaggle)
+Deskripsi     : Kumpulan lengkap peraturan perundang-undangan Indonesia
+                mencakup UU, PP, Perpres, Perda, dan regulasi lainnya.
+
+Field yang digunakan dalam project ini:
+  - nomor_peraturan  : Nomor dan tahun peraturan
+  - judul            : Judul lengkap peraturan/UU
+  - jenis_peraturan  : Jenis (UU / PP / Perpres / Perda / dll)
+  - tentang          : Deskripsi isi/topik regulasi (field utama pencarian)
+  - tahun            : Tahun diterbitkan
+
+Cara unduh dataset:
+  1. Login ke https://www.kaggle.com
+  2. Buka link dataset di atas
+  3. Klik tombol "Download" (format CSV)
+  4. Letakkan file CSV di folder yang sama dengan app.py
+  5. Rename menjadi: dataset_regulasi_indonesia.csv
+
+Sumber resmi regulasi Indonesia:
+  - https://peraturan.bpk.go.id   (JDIH BPK RI)
+  - https://jdih.kemenkeu.go.id   (Kementerian Keuangan)
+  - https://www.hukumonline.com
+============================================================
